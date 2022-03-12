@@ -6,3 +6,6 @@ Powered by [nicehash-python](https://github.com/skeetzo/nicehash-python)
 * `KEY` - Nicehash api key
 * `SECRET` - Nicehash api secret
 * `ORG_ID` - Nicehash organization id
+
+## Usage
+POST to /<rigNameHere>; the string status of the rig will be returned (or null for invalid rig name)
