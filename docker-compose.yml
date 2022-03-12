@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  nicehash-rig-status:
+    build: .
+    environment:
+      KEY: ${KEY}
+      SECRET: ${SECRET}
+      ORG_ID: ${ORG_ID}
+    ports:
+      - "8080:80"
